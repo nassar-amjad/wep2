@@ -1,11 +1,10 @@
-/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
+
 body {
     display: flex;
     justify-content: center;
@@ -15,7 +14,6 @@ body {
     font-family: 'Lexend Deca', sans-serif;
 }
 
-/* Container styling */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -24,7 +22,6 @@ body {
     overflow: hidden;
 }
 
-/* Card styling */
 .card {
     width: 300px;
     padding: 40px;
@@ -35,7 +32,6 @@ body {
 .suv { background-color: hsl(184, 100%, 22%); }
 .luxury { background-color: hsl(179, 100%, 13%); }
 
-/* Content inside the card */
 .content {
     display: flex;
     flex-direction: column;
@@ -43,7 +39,6 @@ body {
     height: 100%;
 }
 
-/* Heading styles */
 .card h2 {
     font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 700;
@@ -52,14 +47,12 @@ body {
     color: white;
 }
 
-/* Paragraph styles */
 .card p {
     font-size: 15px;
     margin: 20px 0;
     line-height: 1.5;
 }
 
-/* Button styling */
 .btn {
     display: inline-block;
     padding: 12px 20px;
@@ -73,12 +66,10 @@ body {
     width: fit-content;
 }
 
-/* Button hover effect */
 .btn:hover {
     background-color: hsla(0, 0%, 100%, 0.75);
 }
 
-/* Responsive layout */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
